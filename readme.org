@@ -1,0 +1,102 @@
+#+HTML_DOCTYPE: html5
+#+OPTIONS: html5-fancy:t
+#+OPTIONS: toc:nil num:nil ^:{}
+
+#+HTML: <p><img src="https://vbr.nathanchung.dev/badge?page_id=mlt-mlt&color=00cf00" alt="Visitor counter"></p>
+* 👋Hello, my name is Mikhail (Mike) Titov
+
+[[./github-metrics.svg]]
+
+** 🚀About Me
+Thank you for visiting my GitHub profile. I enjoy solving problems,
+coding, automating tasks, fixing stuff, and contributing to open-source projects. I
+like to explore new territories that is why over the years I tapped
+into diverse areas stretching over low-level machine instructions
+coding on Z80, numerical methods in mathematical physics, OpenGL,
+computer networking, applied cryptography & privacy, COM & CORBA, GIS,
+and databases.
+
+** 🔍Programing Languages
+- R :: I fell in love with R working as a Graduate Research Assistant
+  and I used it for a number of tasks ranging from simple tests to
+  data visualization using both lattice and, later, ggplot2
+  packages. I wrote a few small packages [[https://tmdl.r-forge.r-project.org/][TMDL]], [[https://github.com/mlt/csdf/][CSDF]], [[https://github.com/mlt/swat2r][swat2r]], and
+  [[https://github.com/mlt/miscelrneous/tree/master/pkg/miscelrneous/R][a
+  number of handy stand-alone functions]] as well as
+  [[https://github.com/mlt/QGIS-Processing-tools/tree/master/rscripts][scripts
+  for QGIS plugin Processing Tools]] now known as [[https://docs.qgis.org/testing/en/docs/user_manual/processing/toolbox.html][The Toolbox]]. Also I
+  contributed [[https://www.postgresql.org/about/news/plr-version-84-released-1947/][bug fixes and enhancements to PL/R]], a PostgreSQL
+  procedural language extension to run R code server-side. The most
+  prominent bug was the
+  [[https://github.com/postgres-plr/plr/pull/48/commits/d030e23229d6012ddab0ed400db377e6cbdc30e0][lack
+  of wrapping R_ParseVector in R_TopLevelExec]] that caused PostgreSQL
+  backend crash if there were benign issues like bad syntax in user R
+  code.
+- Python :: I got to know Python through [[https://plone.org/][Plone CMS]]/Zope back
+  in 2004. I extensively used Python for geoprocessing and ArcGIS
+  scripting. I wrote a couple of QGIS plugins using Python & QT: [[https://github.com/mlt/pihm_helper][a
+  helper]] to set up data for [[http://www.pihm.psu.edu/index.html][PIHM]] and a
+  [[https://github.com/mlt/siam][brute-force approach to extract
+  stage-area curves along with discretized polygons from Digital
+  Elevation Models]] given a starting set of points of interest. I
+  also used Python while
+  [[https://github.com/mlt/schwinn810][reverse-engineering
+  communication protocol]] for
+  [[https://github.com/mlt/schwinn810/wiki/Compatible-Devices][a
+  plethora of inexpensive GPS-enabled sport watches]].
+- Ruby (RoR) :: I used Ruby on Rails and PostgreSQL along with a
+  number of extensions to set up a work group portal to manage
+  assorted data sets pertinent to agricultural research and heavy
+  leaning on loggers data with a twist of versioning. While working on
+  that, I made contributions to the following gems [[https://github.com/metaminded/tabulatr2][tabulatr2]],
+  [[https://github.com/crashtech/torque-postgresql][torque-postgresql]].
+- Java :: I contributed to the following projects: some UI
+  enhancements to [[https://github.com/avram/zandy][Zandy (Zotero
+  client for Android)]], [[https://github.com/mirkosertic/FXDesktopSearch][FXDesktopSearch]] (MS Office keywords
+  tokeniziation with Apache Solr and multivalued faceted search/drill
+  down), [[https://github.com/MenoData/Time4J][Time4J]] typo, bug fixes to Fiji/ImageJ plugins:
+  [[https://github.com/fiji/Trainable_Segmentation][Trainable Weka
+  Segmentation]] (failure to load classifier), [[https://github.com/trakem2/TrakEM2][TrakEM2]] (final render
+  and broken mesh topology) . Also I used Apache Tika to write custom
+  metadata extraction for RoR-based data management portal.
+- C :: Notable contributions: msmtp, sqlite_fdw, [[https://www.postgresql.org/about/news/plr-version-84-released-1947/][PL/R]],
+  [[https://gitlab.gnome.org/GNOME/libxml2/-/commit/8e2098aef7d119ee95228564174d6a87d4183f4a][libxml
+  (incomplete buffer flush)]],
+  [[https://bugs.launchpad.net/udisks/+bug/571038][udisks (EBR parsing
+  bug in Ubuntu 14.04)]], [[https://github.com/FreeRDP/FreeRDP/pull/841][FreeRDP (broken audio output redirect)]],
+  [[http://www.rockbox.org/tracker/task/11897][Rockbox firmware
+  (Monkey Audio decoding bug)]].
+- C++ :: I started with Borland Turbo C++ in '99 and later C++
+  Builder. In '01, I undertook a solo project for a local PC gaming
+  lounge that used Windows 98, enabling them to enforce customer
+  compliance with paid playtime and to prevent overstaying. That
+  involved kernel-mode input filter & hardened client shell to turn
+  gaming station into a kiosk, as well as custom VCL components and
+  UDP-based protocol. I used C++ as well as Borland-flavoured CORBA
+  extensively at my university for numerical methods. More recently, I
+  improved integration into I2P network for [[https://github.com/arvidn/libtorrent][libtorrent]] & [[https://github.com/PurpleI2P/i2pd][i2pd]].
+
+** 🎯Currently
+
+Seeking opportunities in (embedded) software or data engineering,
+testing & troubleshooting, or DevOps to drive innovation and enhance
+software quality. Committed to continuous learning and professional
+growth.
+
+** 💡What I Believe In
+
+- Clean, readable, and maintainable code is just as important as
+  functionality.
+- Continuous learning fuels growth—whether through new programming
+  languages, frameworks, or problem-solving challenges.
+- Collaboration and knowledge-sharing are essential for building
+  better software and stronger teams.
+
+** 📫Contact
+
+I do *not* maintain social media profiles. Please, use e-mail to reach
+me.
+
+** 🙃Misc
+- [[https://docs.google.com/document/d/1_ec1P9k4Jz_vuMD3q8ei-B9xmh647t7xQuQknl6MTks/edit?usp=sharing][In-car WiFi network troubleshooting]] or how to *not* configure
+  computer network, fail QA, and infuriate customers.
